@@ -53,16 +53,16 @@ table {
 
 
 #site-wrapper {
-	height:100px;
+	height:130px;
 	width:100%;
-	background-color:brown;
+	background-color:#F5F5CC;
 }
 
 
 #site-header {
 	height:100px;
 	width:70%;
-	background-color:yellow;
+	background-color:#F5F5CC;
 	margin:0 auto;
 	position:relative;
 }
@@ -78,38 +78,91 @@ table {
 	position:absolute;
 	top:0;
 	right:0;
+	text-transform:uppercase;
 }
-#page{
-	float:left;
-	width:70%;
+
+#top-nav a{
+	text-decoration:none;
+	text-transform:none;
+	color:#754719;
+	font-size:10px;
+	font-family:helvetica;
 	
 }
 
-#footer-wrapper {
-	clear:both;
-	background-color:brown;
-	height:100%;
+#top-nav {
+	color:#754719;
+	font-size:10px;
+	font-family:helvetica;
+	
+	
 }
 
-#footer-contact{
+#page{
 	float:left;
-	width:50%;
+	width:70%;
+	font-family:helvetica;
+	margin-bottom:40px;
+}
+
+#page h1{
+	font-size:2em;
+	color:#754719;
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+#page h2{
+	font-size:12pt;
+	color:#754719;
+	text-transform:uppercase;
+	font-weight: bold;
+	margin-bottom:10px;
+
+}
+
+#page p{
+	font-size:10pt;
+	color:black;
+	margin-bottom:10px;
+	width:70%;
+
+}
+
+
+#footer-wrapper {
+	clear:both;
+	background-color:#754719;
+	height:120px;
+	width:100%;
+	
 }
 
 #footer-follow {
-	float:left;
+	float:right;
 	width:50%;
+	font-family:helvetica;
+	color:#754719;
+}
+#footer-follow img{
+	float:left;
 }
 
 #menu-wrapper {
 	width:100%;
+	height:40px;
 	margin:0 auto;
-	background-color:green;
+	background-color:#754719;
+	text-decoration:none;
 }
 
-#menu-wrapper li{
+#menu-wrapper li a{
 	float:left;
-	
+	text-decoration:none;
+	color:white;
+	font-family:helvetica;
+	margin:10px;
 	
 }
 
@@ -128,3 +181,71 @@ table {
 	
 	
 }
+
+#sidebar li a{
+	text-decoration:none;
+	color:#754719;
+	font-family:helvetica;
+	font-size:9pt;
+}
+
+#sidebar {
+	color:#754719;
+	font-family:helvetica;
+	margin-bottom:5%;
+
+}
+
+#sidebar h1{
+	color:#754719;
+	font-family:helvetica;
+	text-transform:uppercase;
+	font-size:12pt;
+	font-weight:bold;
+	margin-top:5%;
+
+}
+
+
+#footer-contact {
+	width:30%;
+	font-family:helvetica;
+	float:left;
+	width:50%;
+	
+
+	
+}
+
+#footer-contact h1{
+	color:#F5F5CC;
+	text-transform:uppercase;
+	font-size:12pt;
+	font-weight:bold;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-left:30%;
+	margin-right:30%;
+
+}
+
+#footer-follow h1{
+	color:#F5F5CC;
+	text-transform:uppercase;
+	font-size:12pt;
+	font-weight:bold;
+	margin-top:.5em;
+	margin-bottom:.5em;
+
+}
+
+#footer-contact p{
+	color:white;
+	font-size:9pt;
+	margin-top:.5em;
+	margin-bottom:.5em;
+	margin-left:30%;
+	margin-right:50%;
+
+}
+
