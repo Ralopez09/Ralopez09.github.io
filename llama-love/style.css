@@ -52,4 +52,15 @@ table {
 
 /* -----------------END RESET---------------- */
 
+article {
+	float:left;
+	width:50%;
+}
+
+img {
+	float:left;
+}
+
+
+
 
