@@ -55,12 +55,34 @@ table {
 article {
 	float:left;
 	width:50%;
+	font-family:helvetica;
 }
 
 img {
 	float:left;
+	margin:20px;
+}
+
+h1 {
+	font-size:2em;
+	font-weight:bold;
+	margin:5px;
+	
 }
 
 
+h2 {
+	font-size:12px;
+	margin-top:10px;
+	color:grey;
+	font-weight:lighter;
+	margin-bottom:25px;
+	
+}
+p {
+	margin:15px;
+	border:15px;
+	font-size:1em;
+}
 
 
