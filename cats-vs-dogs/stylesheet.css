@@ -49,15 +49,26 @@ table {
 
 /*--------start here--------*/
 
-<style>
-nav li {
+header{
+	height:100px;
+	width:50%;
+	margin:0 auto;
+	position:relative;
+
+}
+
+li {
 	float:left;
-}
-nav a{
+	text-align:center;
 	text-decoration:none;
+	color:black;
 }
 
+li a{
+	text-decoration:none;
+	color:black;
+}
+	
+	
+}
 
-
-
-</style>
