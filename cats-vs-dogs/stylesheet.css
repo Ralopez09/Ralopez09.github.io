@@ -57,9 +57,14 @@ header{
 
 }
 
+header img{
+	margin-top:3em;
+	margin-bottom:20px;
+}
+
 li {
 	float:left;
-	text-align:center;
+	margin-top:80px;
 	text-decoration:none;
 	color:black;
 }
@@ -67,8 +72,45 @@ li {
 li a{
 	text-decoration:none;
 	color:black;
+	margin:1em;
+	font-family:times;
+	font-size:2em;
+	text-transform:uppercase;
+	font-weight:bold;
 }
-	
+
+article {
+	float:left;
+	margin:1em;
+
+}
+
+h2{
+	font-weight:bold;
+	font-size:1.5em;
+	padding:.5em;
 	
 }
+
+#art2 {
+	width:35%;
+	
+}
+
+#art1 {
+	width:35%;
+}
+
+.footer {
+	float:left:
+	
+}
+
+nav {
+}
+
+
+
+
+
 
