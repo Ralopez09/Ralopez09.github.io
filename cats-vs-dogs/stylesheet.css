@@ -54,11 +54,12 @@ header{
 	width:50%;
 	margin:0 auto;
 	position:relative;
+	text-align:center;
 
 }
 
 header img{
-	margin-top:3em;
+	margin-top:1em;
 	margin-bottom:20px;
 }
 
@@ -80,36 +81,62 @@ li a{
 }
 
 article {
-	float:left;
-	margin:1em;
+	padding:5%;
 
 }
 
 h2{
 	font-weight:bold;
 	font-size:1.5em;
-	padding:.5em;
+	padding-top:.5em;
+	padding-bottom:.5em;
 	
 }
 
 #art2 {
 	width:35%;
-	
+	float:left;
 }
 
 #art1 {
 	width:35%;
+	float:left;
 }
 
 .footer {
-	float:left:
-	
+	clear:both;
+	padding-top:2px solid black;
+	margin:10px;
+	padding-top:20px;
+	border-top:3px solid black;
 }
 
 nav {
+	width:100em;
+	border-top:3px solid black;
+	height:60px;
+	margin:0 auto;
+	border-bottom:3px solid black;
+	margin-top:30px;
+	
 }
 
+#none { 
+	list-style-type:none;
 
+}
+
+nav li{
+	list-style-type:disc;
+	list-style-position:inside;
+	margin:0 auto;
+	font-size:1em;
+	float:left;
+	padding:15px;
+	
+}
+
+.footer {}
 
 
 
